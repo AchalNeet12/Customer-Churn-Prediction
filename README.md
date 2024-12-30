@@ -13,13 +13,13 @@ This project aims to analyze customer churn patterns within a telecom company to
 ---
 ## ⚙ Algorithms Used
    1. **LogisticRegression**
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
   - Description:
       - Logistic Regression is a linear model for binary classification. It predicts the probability of the target variable belonging to a particular class using a logistic function.
  - Advantages:
      - Simple and interpretable.
         - Works well when there is a linear relationship between features and the target variable
-  - Accuracy: XX%
+  - Accuracy: 80.15%
    3. **DecisionTreeClassifier**
       
   - Description:
@@ -27,7 +27,7 @@ This project aims to analyze customer churn patterns within a telecom company to
   - Advantages:
       - Easy to understand and interpret.
       - Captures non-linear relationships effectively.
-  - Accuracy: XX%
+  - Accuracy: 79.33%
    5. **RandomForestClassifer**
       
   - Description:
@@ -35,7 +35,7 @@ This project aims to analyze customer churn patterns within a telecom company to
   - Advantages:
       - Robust to overfitting compared to a single decision tree.
       - Handles missing values and outliers effectively.
-  - Accuracy: XX%         
+  - Accuracy: 81.17%         
    7. **AddaboostClassifier**
       
   - Description:
@@ -44,7 +44,7 @@ This project aims to analyze customer churn patterns within a telecom company to
   - Advantages:
      - Improves accuracy by iteratively correcting errors.
      - Effective for imbalanced datasets.
-  - Accuracy: XX%
+  - Accuracy:82.52%
    5. **GradientBoostClassifer**
   
   - Description:
@@ -53,7 +53,7 @@ This project aims to analyze customer churn patterns within a telecom company to
   - Advantages:
      - Provides high accuracy for both classification and regression tasks.
      - Handles complex, non-linear relationships between features and the target.
- - Accuracy: XX%
+ - Accuracy: 82.72%
 ## Best Model: GradientBoostingClassifier
               - Achieved the highest accuracy among all models.
               - Captures complex patterns and non-linear relationships effectively.
