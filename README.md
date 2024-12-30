@@ -14,46 +14,46 @@ This project aims to analyze customer churn patterns within a telecom company to
 ## ⚙ Algorithms Used
    1. **LogisticRegression**
 
-     - Description:
-              - Logistic Regression is a linear model for binary classification. It predicts the probability of the target variable belonging to a particular class using a logistic function.
-     - Advantages:
-              - Simple and interpretable.
-              - Works well when there is a linear relationship between features and the target variable
-     - Accuracy: XX%
+  - Description:
+      - Logistic Regression is a linear model for binary classification. It predicts the probability of the target variable belonging to a particular class using a logistic function.
+ - Advantages:
+     - Simple and interpretable.
+        - Works well when there is a linear relationship between features and the target variable
+  - Accuracy: XX%
    3. **DecisionTreeClassifier**
       
-     - Description:
-              - A Decision Tree is a non-linear model that splits the dataset into subsets based on feature conditions. Each split is chosen to maximize information gain or minimize Gini impurity.
-     - Advantages:
-              - Easy to understand and interpret.
-              - Captures non-linear relationships effectively.
-     - Accuracy: XX%
+  - Description:
+      - A Decision Tree is a non-linear model that splits the dataset into subsets based on feature conditions. Each split is chosen to maximize information gain or minimize Gini impurity.
+  - Advantages:
+      - Easy to understand and interpret.
+      - Captures non-linear relationships effectively.
+  - Accuracy: XX%
    5. **RandomForestClassifer**
       
-     - Description:
-              - Random Forest is an ensemble learning method that constructs multiple decision trees during training and merges their outputs to improve accuracy and reduce overfitting.
-     - Advantages:
-              - Robust to overfitting compared to a single decision tree.
-              - Handles missing values and outliers effectively.
-     - Accuracy: XX%         
+  - Description:
+      - Random Forest is an ensemble learning method that constructs multiple decision trees during training and merges their outputs to improve accuracy and reduce overfitting.
+  - Advantages:
+      - Robust to overfitting compared to a single decision tree.
+      - Handles missing values and outliers effectively.
+  - Accuracy: XX%         
    7. **AddaboostClassifier**
       
-     - Description:
-              - Adaptive Boosting (AdaBoost) combines multiple "weak learners" (typically shallow decision trees) into a single "strong learner." It assigns weights to misclassified samples, allowing the 
-                model to focus on hard-to-classify instances in subsequent iterations.
-     - Advantages:
-              - Improves accuracy by iteratively correcting errors.
-              - Effective for imbalanced datasets.
-     - Accuracy: XX%
-    5. **GradientBoostClassifer**
-    
-      - Description:
-              - Gradient Boosting is another ensemble method that builds models sequentially. It optimizes a loss function by training each new model to correct the errors of the previous model. Unlike 
+  - Description:
+     - Adaptive Boosting (AdaBoost) combines multiple "weak learners" (typically shallow decision trees) into a single "strong learner." It assigns weights to misclassified samples, allowing the 
+       model to focus on hard-to-classify instances in subsequent iterations.
+  - Advantages:
+     - Improves accuracy by iteratively correcting errors.
+     - Effective for imbalanced datasets.
+  - Accuracy: XX%
+   5. **GradientBoostClassifer**
+  
+  - Description:
+     - Gradient Boosting is another ensemble method that builds models sequentially. It optimizes a loss function by training each new model to correct the errors of the previous model. Unlike 
                 AdaBoost, Gradient Boosting minimizes the error directly using gradient descent.
-      - Advantages:
-              - Provides high accuracy for both classification and regression tasks.
-              - Handles complex, non-linear relationships between features and the target.
-      - Accuracy: XX%
+  - Advantages:
+     - Provides high accuracy for both classification and regression tasks.
+     - Handles complex, non-linear relationships between features and the target.
+ - Accuracy: XX%
 ## Best Model: GradientBoostingClassifier
               - Achieved the highest accuracy among all models.
               - Captures complex patterns and non-linear relationships effectively.
@@ -67,30 +67,30 @@ It Divided into 3 Type
 4.Traget variable
 
 1. **Demographic information**
-   • gender: Whether the customer is a male or a female.
-   • SeniorCitizen: Whether the customer is a senior citizen or not (1, 0).
-   • Partner: Whether the customer has a partner or not (Yes, No)
-   • Dependents : Whether the customer has dependents or not (Yes, No)
+   -• gender: Whether the customer is a male or a female.
+   -• SeniorCitizen: Whether the customer is a senior citizen or not (1, 0).
+   -• Partner: Whether the customer has a partner or not (Yes, No)
+   -• Dependents : Whether the customer has dependents or not (Yes, No)
 2. **Customer Acconting Information**
-   • Contract: The contract term of the customer (Month-to-month, One year, Two year)
-   • PaperlessBilling : Whether the customer has paperless billing or not (Yes, No)
-   • MonthlyCharges: The amount charged to the customer monthly
-   • TotalCharges: The total amount charged to the customer
-   • tenure: Number of months the customer has stayed with the company
-   • PaymentMethod: The customer's payment method (Electronic check, Mailed check, Bank transfer (au card (automatic))
-   • customeriD: Customer ID
+   -• Contract: The contract term of the customer (Month-to-month, One year, Two year)
+   -• PaperlessBilling : Whether the customer has paperless billing or not (Yes, No)
+   -• MonthlyCharges: The amount charged to the customer monthly
+   -• TotalCharges: The total amount charged to the customer
+   -• tenure: Number of months the customer has stayed with the company
+   -• PaymentMethod: The customer's payment method (Electronic check, Mailed check, Bank transfer (au card (automatic))
+   -• customeriD: Customer ID
 3. **Service information**
-   • PhoneService: Whether the customer has a phone service or not (yes, No)
-   • MultipleLines: Whether the customer has multiple lines or not (yes, No, No phone service)
-   • InternetService: Customer's internet service provider (DSL, Fiber optic, No)
-   • OnlineSecurity: Whether the customer has online security or not (yes, No, No internet service)
-   • OnlineBackup: Whether the customer has online backup or not (Yes, No, No internet service)
-   • DeviceProtection: Whether the customer has device protection or not (yes, No, No internet service)
-   • TechSupport: Whether the customer has tech support or not (yes, No, No internet service)
-   • Streaming TV: Whether the customer has streaming TV or not (Yes, No, No internet service)
-   • StreamingMovies: Whether the customer has streaming movies or not (Yes, No, No internet service)
+   -• PhoneService: Whether the customer has a phone service or not (yes, No)
+   -• MultipleLines: Whether the customer has multiple lines or not (yes, No, No phone service)
+   -• InternetService: Customer's internet service provider (DSL, Fiber optic, No)
+   -• OnlineSecurity: Whether the customer has online security or not (yes, No, No internet service)
+   -• OnlineBackup: Whether the customer has online backup or not (Yes, No, No internet service)
+   -• DeviceProtection: Whether the customer has device protection or not (yes, No, No internet service)
+   -• TechSupport: Whether the customer has tech support or not (yes, No, No internet service)
+   -• Streaming TV: Whether the customer has streaming TV or not (Yes, No, No internet service)
+   -• StreamingMovies: Whether the customer has streaming movies or not (Yes, No, No internet service)
 4. **Traget variable**
-   • Churn: Whether the customer churn or not (yes or No)
+   -• Churn: Whether the customer churn or not (yes or No)
 ---
 ## 🤖 Technologies Used
   - **Python:** Core programming language for the project.
@@ -122,8 +122,8 @@ It Divided into 3 Type
  - Split the data into training (80%) and testing (20%) datasets for evaluation.
 ---
 ## 📌 Model Deployment
-   The Gradient Boosting model has been deployed in a Streamlit application. The app allows users to input customer details and receive a prediction on whether the customer is likely to churn or stay. The 
-   model's high accuracy ensures reliable predictions, providing actionable insights for customer retention strategies.
+   - The Gradient Boosting model has been deployed in a Streamlit application. The app allows users to input customer details and receive a prediction on whether the customer is likely to churn or stay. The 
+     model's high accuracy ensures reliable predictions, providing actionable insights for customer retention strategies.
 ---
 ## 📈 Result
 - Multiple machine learning models were tested for customer churn prediction.
