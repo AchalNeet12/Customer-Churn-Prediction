@@ -19,7 +19,7 @@ This project aims to analyze customer churn patterns within a telecom company to
  - Advantages:
      - Simple and interpretable.
         - Works well when there is a linear relationship between features and the target variable
-  - Accuracy: 80.15%
+  - Accuracy: 79.91%
     
  2. **DecisionTreeClassifier**
 - - -
@@ -28,7 +28,7 @@ This project aims to analyze customer churn patterns within a telecom company to
   - Advantages:
       - Easy to understand and interpret.
       - Captures non-linear relationships effectively.
-  - Accuracy: 79.91%
+  - Accuracy: 79.38%
     
  3. **RandomForestClassifer**
 - - -
@@ -37,7 +37,7 @@ This project aims to analyze customer churn patterns within a telecom company to
  - Advantages:
       - Robust to overfitting compared to a single decision tree.
       - Handles missing values and outliers effectively.
- - Accuracy: 81.75%
+ - Accuracy: 80.88%
        
  4. **AddaboostClassifier**
 - - -
@@ -57,7 +57,7 @@ This project aims to analyze customer churn patterns within a telecom company to
  - Advantages:
      - Provides high accuracy for both classification and regression tasks.
      - Handles complex, non-linear relationships between features and the target.
- - Accuracy: 82.81%
+ - Accuracy: 82.18%
    
  6. **XGBClassifier**
 - - -
@@ -68,7 +68,7 @@ This project aims to analyze customer churn patterns within a telecom company to
      - High accuracy and fast computation.
      - Handles large datasets effectively.
      - Built-in regularization to prevent overfitting.
- - Accuracy: 84.02% (Highest accuracy)
+ - Accuracy: 83.30% (Highest accuracy)
 
  ## Best Model: XGBClassifier
               - Achieved the highest accuracy among all models.
