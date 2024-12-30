@@ -13,59 +13,59 @@ This project aims to analyze customer churn patterns within a telecom company to
 ---
 ## ⚙ Algorithms Used
    1. **LogisticRegression**
-
-  - Description:
+ - Description:
       - Logistic Regression is a linear model for binary classification. It predicts the probability of the target variable belonging to a particular class using a logistic function.
  - Advantages:
      - Simple and interpretable.
         - Works well when there is a linear relationship between features and the target variable
   - Accuracy: 80.15%
+    
     2. **DecisionTreeClassifier**
-      
   - Description:
       - A Decision Tree is a non-linear model that splits the dataset into subsets based on feature conditions. Each split is chosen to maximize information gain or minimize Gini impurity.
   - Advantages:
       - Easy to understand and interpret.
       - Captures non-linear relationships effectively.
   - Accuracy: 79.91%
+    
     3. **RandomForestClassifer**
-      
-  - Description:
+ - Description:
       - Random Forest is an ensemble learning method that constructs multiple decision trees during training and merges their outputs to improve accuracy and reduce overfitting.
-  - Advantages:
+ - Advantages:
       - Robust to overfitting compared to a single decision tree.
       - Handles missing values and outliers effectively.
-  - Accuracy: 81.75%         
+ - Accuracy: 81.75%
+       
     4. **AddaboostClassifier**
-      
-  - Description:
+ - Description:
      - Adaptive Boosting (AdaBoost) combines multiple "weak learners" (typically shallow decision trees) into a single "strong learner." It assigns weights to misclassified samples, allowing the 
        model to focus on hard-to-classify instances in subsequent iterations.
-  - Advantages:
+ - Advantages:
      - Improves accuracy by iteratively correcting errors.
      - Effective for imbalanced datasets.
-  - Accuracy:82.09%
+ - Accuracy:82.09%
+   
    5. **GradientBoostClassifer**
   
-  - Description:
+ - Description:
      - Gradient Boosting is another ensemble method that builds models sequentially. It optimizes a loss function by training each new model to correct the errors of the previous model. Unlike 
-                AdaBoost, Gradient Boosting minimizes the error directly using gradient descent.
-  - Advantages:
+       AdaBoost, Gradient Boosting minimizes the error directly using gradient descent.
+ - Advantages:
      - Provides high accuracy for both classification and regression tasks.
      - Handles complex, non-linear relationships between features and the target.
  - Accuracy: 82.81%
+   
   6. **XGBClassifier**
-  
-  - Description:
+ - Description:
      - XGBoost (Extreme Gradient Boosting) is an advanced implementation of gradient boosting that builds trees sequentially, with each tree correcting errors from the previous one. It uses regularization to 
        reduce overfitting and improve model generalization.
-  - Advantages:
+ - Advantages:
      - High accuracy and fast computation.
      - Handles large datasets effectively.
      - Built-in regularization to prevent overfitting.
-  - Accuracy: 84.02% (Highest accuracy)
+ - Accuracy: 84.02% (Highest accuracy)
 
-   ## Best Model: XGBClassifier
+ ## Best Model: XGBClassifier
               - Achieved the highest accuracy among all models.
               - Captures complex patterns and non-linear relationships effectively.
               - Tuned for optimal performance with high reliability.
