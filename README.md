@@ -13,7 +13,7 @@ This project aims to analyze customer churn patterns within a telecom company to
 ---
 ## ⚙ Algorithms Used
    1. **LogisticRegression**
-
+- - -
   - Description:
       - Logistic Regression is a linear model for binary classification. It predicts the probability of the target variable belonging to a particular class using a logistic function.
  - Advantages:
