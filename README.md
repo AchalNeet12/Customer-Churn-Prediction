@@ -13,26 +13,31 @@ This project aims to analyze customer churn patterns within a telecom company to
 ---
 ## ⚙ Algorithms Used
    1. **LogisticRegression**
+
      - Description:
               - Logistic Regression is a linear model for binary classification. It predicts the probability of the target variable belonging to a particular class using a logistic function.
      - Advantages:
               - Simple and interpretable.
               - Works well when there is a linear relationship between features and the target variable
      - Accuracy: XX%
-   2. **DecisionTreeClassifier**
+   3. **DecisionTreeClassifier**
+      
      - Description:
               - A Decision Tree is a non-linear model that splits the dataset into subsets based on feature conditions. Each split is chosen to maximize information gain or minimize Gini impurity.
      - Advantages:
               - Easy to understand and interpret.
               - Captures non-linear relationships effectively.
      - Accuracy: XX%
-   3. **RandomForestClassifer**
+   5. **RandomForestClassifer**
+      
      - Description:
               - Random Forest is an ensemble learning method that constructs multiple decision trees during training and merges their outputs to improve accuracy and reduce overfitting.
      - Advantages:
               - Robust to overfitting compared to a single decision tree.
               - Handles missing values and outliers effectively.
-   4. **AddaboostClassifier**
+     - Accuracy: XX%         
+   7. **AddaboostClassifier**
+      
      - Description:
               - Adaptive Boosting (AdaBoost) combines multiple "weak learners" (typically shallow decision trees) into a single "strong learner." It assigns weights to misclassified samples, allowing the 
                 model to focus on hard-to-classify instances in subsequent iterations.
@@ -41,6 +46,7 @@ This project aims to analyze customer churn patterns within a telecom company to
               - Effective for imbalanced datasets.
      - Accuracy: XX%
     5. **GradientBoostClassifer**
+    
       - Description:
               - Gradient Boosting is another ensemble method that builds models sequentially. It optimizes a loss function by training each new model to correct the errors of the previous model. Unlike 
                 AdaBoost, Gradient Boosting minimizes the error directly using gradient descent.
