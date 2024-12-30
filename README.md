@@ -18,7 +18,7 @@ This project aims to analyze customer churn patterns within a telecom company to
       - Logistic Regression is a linear model for binary classification. It predicts the probability of the target variable belonging to a particular class using a logistic function.
  - Advantages:
      - Simple and interpretable.
-        - Works well when there is a linear relationship between features and the target variable
+     - Works well when there is a linear relationship between features and the target variable
   - Accuracy: 79.91%
     
  2. **DecisionTreeClassifier**
