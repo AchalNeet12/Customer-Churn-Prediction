@@ -78,30 +78,30 @@ It Divided into 3 Type
 4.Traget variable
 
 1. **Demographic information**
-   -• gender: Whether the customer is a male or a female.
-   -• SeniorCitizen: Whether the customer is a senior citizen or not (1, 0).
-   -• Partner: Whether the customer has a partner or not (Yes, No)
-   -• Dependents : Whether the customer has dependents or not (Yes, No)
+   - gender: Whether the customer is a male or a female.
+   - SeniorCitizen: Whether the customer is a senior citizen or not (1, 0).
+   - Partner: Whether the customer has a partner or not (Yes, No)
+   - Dependents : Whether the customer has dependents or not (Yes, No)
 2. **Customer Acconting Information**
-   -• Contract: The contract term of the customer (Month-to-month, One year, Two year)
-   -• PaperlessBilling : Whether the customer has paperless billing or not (Yes, No)
-   -• MonthlyCharges: The amount charged to the customer monthly
-   -• TotalCharges: The total amount charged to the customer
-   -• tenure: Number of months the customer has stayed with the company
-   -• PaymentMethod: The customer's payment method (Electronic check, Mailed check, Bank transfer (au card (automatic))
-   -• customeriD: Customer ID
+   - Contract: The contract term of the customer (Month-to-month, One year, Two year)
+   - PaperlessBilling : Whether the customer has paperless billing or not (Yes, No)
+   - MonthlyCharges: The amount charged to the customer monthly
+   - TotalCharges: The total amount charged to the customer
+   - tenure: Number of months the customer has stayed with the company
+   - PaymentMethod: The customer's payment method (Electronic check, Mailed check, Bank transfer (au card (automatic))
+   - customeriD: Customer ID
 3. **Service information**
-   -• PhoneService: Whether the customer has a phone service or not (yes, No)
-   -• MultipleLines: Whether the customer has multiple lines or not (yes, No, No phone service)
-   -• InternetService: Customer's internet service provider (DSL, Fiber optic, No)
-   -• OnlineSecurity: Whether the customer has online security or not (yes, No, No internet service)
-   -• OnlineBackup: Whether the customer has online backup or not (Yes, No, No internet service)
-   -• DeviceProtection: Whether the customer has device protection or not (yes, No, No internet service)
-   -• TechSupport: Whether the customer has tech support or not (yes, No, No internet service)
-   -• Streaming TV: Whether the customer has streaming TV or not (Yes, No, No internet service)
-   -• StreamingMovies: Whether the customer has streaming movies or not (Yes, No, No internet service)
+   - PhoneService: Whether the customer has a phone service or not (yes, No)
+   - MultipleLines: Whether the customer has multiple lines or not (yes, No, No phone service)
+   - InternetService: Customer's internet service provider (DSL, Fiber optic, No)
+   - OnlineSecurity: Whether the customer has online security or not (yes, No, No internet service)
+   - OnlineBackup: Whether the customer has online backup or not (Yes, No, No internet service)
+   - DeviceProtection: Whether the customer has device protection or not (yes, No, No internet service)
+   - TechSupport: Whether the customer has tech support or not (yes, No, No internet service)
+   - Streaming TV: Whether the customer has streaming TV or not (Yes, No, No internet service)
+   - StreamingMovies: Whether the customer has streaming movies or not (Yes, No, No internet service)
 4. **Traget variable**
-   -• Churn: Whether the customer churn or not (yes or No)
+   - Churn: Whether the customer churn or not (yes or No)
 ---
 ## 🤖 Technologies Used
   - **Python:** Core programming language for the project.
