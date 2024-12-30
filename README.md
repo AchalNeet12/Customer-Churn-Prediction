@@ -116,7 +116,8 @@ It Divided into 3 Type
  - Split the data into training (80%) and testing (20%) datasets for evaluation.
 ---
 ## 📌 Model Deployment
-The Gradient Boosting model has been deployed in a Streamlit application. The app allows users to input customer details and receive a prediction on whether the customer is likely to churn or stay. The model's high accuracy ensures reliable predictions, providing actionable insights for customer retention strategies.
+   The Gradient Boosting model has been deployed in a Streamlit application. The app allows users to input customer details and receive a prediction on whether the customer is likely to churn or stay. The 
+   model's high accuracy ensures reliable predictions, providing actionable insights for customer retention strategies.
 ---
 ## 📈 Result
 - Multiple machine learning models were tested for customer churn prediction.
