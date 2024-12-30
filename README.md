@@ -20,7 +20,7 @@ This project aims to analyze customer churn patterns within a telecom company to
      - Simple and interpretable.
         - Works well when there is a linear relationship between features and the target variable
   - Accuracy: 80.15%
-   3. **DecisionTreeClassifier**
+    2. **DecisionTreeClassifier**
       
   - Description:
       - A Decision Tree is a non-linear model that splits the dataset into subsets based on feature conditions. Each split is chosen to maximize information gain or minimize Gini impurity.
@@ -28,7 +28,7 @@ This project aims to analyze customer churn patterns within a telecom company to
       - Easy to understand and interpret.
       - Captures non-linear relationships effectively.
   - Accuracy: 79.91%
-   5. **RandomForestClassifer**
+    3. **RandomForestClassifer**
       
   - Description:
       - Random Forest is an ensemble learning method that constructs multiple decision trees during training and merges their outputs to improve accuracy and reduce overfitting.
@@ -36,7 +36,7 @@ This project aims to analyze customer churn patterns within a telecom company to
       - Robust to overfitting compared to a single decision tree.
       - Handles missing values and outliers effectively.
   - Accuracy: 81.75%         
-   7. **AddaboostClassifier**
+    4. **AddaboostClassifier**
       
   - Description:
      - Adaptive Boosting (AdaBoost) combines multiple "weak learners" (typically shallow decision trees) into a single "strong learner." It assigns weights to misclassified samples, allowing the 
@@ -54,7 +54,7 @@ This project aims to analyze customer churn patterns within a telecom company to
      - Provides high accuracy for both classification and regression tasks.
      - Handles complex, non-linear relationships between features and the target.
  - Accuracy: 82.81%
-   6. **XGBClassifier**
+  6. **XGBClassifier**
   
   - Description:
      - XGBoost (Extreme Gradient Boosting) is an advanced implementation of gradient boosting that builds trees sequentially, with each tree correcting errors from the previous one. It uses regularization to 
