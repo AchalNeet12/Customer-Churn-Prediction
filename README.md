@@ -27,7 +27,7 @@ This project aims to analyze customer churn patterns within a telecom company to
   - Advantages:
       - Easy to understand and interpret.
       - Captures non-linear relationships effectively.
-  - Accuracy: 79.33%
+  - Accuracy: 79.91%
    5. **RandomForestClassifer**
       
   - Description:
@@ -35,7 +35,7 @@ This project aims to analyze customer churn patterns within a telecom company to
   - Advantages:
       - Robust to overfitting compared to a single decision tree.
       - Handles missing values and outliers effectively.
-  - Accuracy: 81.17%         
+  - Accuracy: 81.75%         
    7. **AddaboostClassifier**
       
   - Description:
@@ -44,7 +44,7 @@ This project aims to analyze customer churn patterns within a telecom company to
   - Advantages:
      - Improves accuracy by iteratively correcting errors.
      - Effective for imbalanced datasets.
-  - Accuracy:82.52%
+  - Accuracy:82.09%
    5. **GradientBoostClassifer**
   
   - Description:
@@ -53,8 +53,19 @@ This project aims to analyze customer churn patterns within a telecom company to
   - Advantages:
      - Provides high accuracy for both classification and regression tasks.
      - Handles complex, non-linear relationships between features and the target.
- - Accuracy: 82.72%
-## Best Model: GradientBoostingClassifier
+ - Accuracy: 82.81%
+   6. **XGBClassifier**
+  
+  - Description:
+     - XGBoost (Extreme Gradient Boosting) is an advanced implementation of gradient boosting that builds trees sequentially, with each tree correcting errors from the previous one. It uses regularization to 
+       reduce overfitting and improve model generalization.
+  - Advantages:
+     - High accuracy and fast computation.
+     - Handles large datasets effectively.
+     - Built-in regularization to prevent overfitting.
+  - Accuracy: 84.02% (Highest accuracy)
+
+   ## Best Model: XGBClassifier
               - Achieved the highest accuracy among all models.
               - Captures complex patterns and non-linear relationships effectively.
               - Tuned for optimal performance with high reliability.
@@ -122,22 +133,22 @@ It Divided into 3 Type
  - Split the data into training (80%) and testing (20%) datasets for evaluation.
 ---
 ## 📌 Model Deployment
-   - The Gradient Boosting model has been deployed in a Streamlit application. The app allows users to input customer details and receive a prediction on whether the customer is likely to churn or stay. The 
+   - The XGBClassifier model has been deployed in a Streamlit application. The app allows users to input customer details and receive a prediction on whether the customer is likely to churn or stay. The 
      model's high accuracy ensures reliable predictions, providing actionable insights for customer retention strategies.
 ---
 ## 📈 Result
 - Multiple machine learning models were tested for customer churn prediction.
-- GradientBoostingClassifier outperformed others with the highest accuracy and was selected for deployment.
+- XGBClassifier outperformed others with the highest accuracy and was selected for deployment.
 - The final model effectively identifies customers who are likely to churn with improved precision and recall.
 ---
 ## 📊 Model Output
 - The user-friendly Streamlit interface accepts customer details as input.
 - Outputs whether the customer is "likely to leave" or "likely to stay."
-- The predictions are based on the GradientBoostingClassifier's trained model, ensuring high accuracy and reliability.
+- The predictions are based on the XGBClassifier's trained model, ensuring high accuracy and reliability.
 ---
 ## 🎯 Conclusion
 - Customer churn prediction helps businesses take proactive measures to retain customers.
-- Using GradientBoostingClassifier, the system achieved robust results, emphasizing the importance of boosting techniques for such tasks.
+- Using XGBClassifier, the system achieved robust results, emphasizing the importance of boosting techniques for such tasks.
 - The deployed solution provides actionable insights into customer behavior, aiding in retention strategies.
 
 
