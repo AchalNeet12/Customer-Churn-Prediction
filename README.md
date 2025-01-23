@@ -12,6 +12,7 @@ This project aims to analyze customer churn patterns within a telecom company to
     -  Identify factors leading to customer dissatisfaction and churn.
 ---
 ## ⚙ Algorithms Used
+- - -
  1. **LogisticRegression**
 - - -
  - Description:
@@ -20,7 +21,7 @@ This project aims to analyze customer churn patterns within a telecom company to
      - Simple and interpretable.
      - Works well when there is a linear relationship between features and the target variable
   - Accuracy: 79.91%
-    
+- - -    
  2. **DecisionTreeClassifier**
 - - -
   - Description:
@@ -29,7 +30,7 @@ This project aims to analyze customer churn patterns within a telecom company to
       - Easy to understand and interpret.
       - Captures non-linear relationships effectively.
   - Accuracy: 79.38%
-    
+- - -   
  3. **RandomForestClassifer**
 - - -
  - Description:
@@ -38,7 +39,7 @@ This project aims to analyze customer churn patterns within a telecom company to
       - Robust to overfitting compared to a single decision tree.
       - Handles missing values and outliers effectively.
  - Accuracy: 80.88%
-       
+- - -      
  4. **AddaboostClassifier**
 - - -
  - Description:
@@ -48,7 +49,7 @@ This project aims to analyze customer churn patterns within a telecom company to
      - Improves accuracy by iteratively correcting errors.
      - Effective for imbalanced datasets.
  - Accuracy:82.09%
-   
+- - -   
  5. **GradientBoostClassifer**
 - - -
  - Description:
@@ -58,7 +59,7 @@ This project aims to analyze customer churn patterns within a telecom company to
      - Provides high accuracy for both classification and regression tasks.
      - Handles complex, non-linear relationships between features and the target.
  - Accuracy: 82.18%
-   
+- - -  
  6. **XGBClassifier**
 - - -
  - Description:
